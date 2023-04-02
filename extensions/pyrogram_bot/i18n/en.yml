@@ -1,0 +1,26 @@
+message:
+  is_typing: "Is typing..."
+
+model:
+  is: "Model"
+  index: "Present models:\n\n"
+  get: "At present moment using model: **/name/**"
+  put:
+    succesful: "Model chaged succesfully to: **/name/**"
+    failed: "Failed to change model"
+
+character:
+  is: "Character"
+  index: "Present characters:\n\n"
+  get: "At present moment using character: **/name/**"
+  put:
+    succesful: "Character chaged succesfully to: **/name/**"
+    failed: "Failed to change model"
+
+lang:
+  is: "Language"
+  en: "English"
+  ru: "Russian"
+
+error:
+  credentials_not_found: "\nCredentials are invalid or not found. Please, check it in `.env` or acquire new here:\n    Telegram API key and API hash from this link: https://my.telegram.org/apps\n    Bot token from telegram bot BotFather\n"

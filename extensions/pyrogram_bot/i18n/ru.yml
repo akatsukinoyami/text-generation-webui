@@ -1,0 +1,23 @@
+message:
+  is_typing: "Печатает..."
+model:
+  is: "Модель"
+  index: "Установленные модели:\n\n"
+  put:
+    succesful: "Модель изменена на: **/name/**"
+    failed: "При изменении модели произошла ошибка"
+
+character:
+  is: "Персонаж"
+  index: "Установленные персонажи:\n\n"
+  put:
+    succesful: "Персонаж изменена на: **/name/**"
+    failed: "При изменении персонажа произошла ошибка"
+
+lang:
+  is: "Язык"
+  en: "Английский"
+  ru: "Русский"
+
+error:
+  credentials_not_found: "Реквизиты невалидны или не найдены. Пожалуйста проверьте файл `.env` или получите новые реквизиты тут:\n    Telegram API key и API hash по этой ссылке: https://my.telegram.org/apps\n    Bot token от telegram бота BotFather\n"

@@ -4,6 +4,8 @@ training/datasets
 extensions/silero_tts/outputs
 extensions/elevenlabs_tts/outputs
 extensions/sd_api_pictures/outputs
+extensions/pyrogram_bot/textgen.session
+extensions/pyrogram_bot/textgen.session-journal
 logs
 loras
 models
@@ -14,6 +16,7 @@ torch-dumps
 */*/pycache*
 venv/
 .venv/
+.env
 .vscode
 repositories
 
